@@ -43,16 +43,17 @@ body{
   }
 
    .nav li{
-    padding: 10px;
-    list-style-type: none;
-    float: left;
+    padding: 5px;
+    /*list-style-type: none;*/
+    /*float: left;*/
    }
   .nav a {
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
     color: rgb(212,182,112);
   }
+
   header {
     background-color: rgb(13,0,10);
     }
@@ -63,22 +64,277 @@ body{
     height: 300px;
  }
  #cover {
-    background-color: rgb(0,0,0,0.6);
+    background-color: rgb(0,0,0,0.5);
     height: 300px;
  }
 
  .banner{
     text-align: right;
-    font-size: 40px;
+    font-size: 35px;
     font-family: 'montezregular';
-    position: relative;
+   /* position: relative;
     right: 40px;
-    top: 40px;
-    color: rgb(172,195,196); 
+    top: 40px;*/
+    color: white;
+    padding: 15px;
 }
  .banner h1 {
     display: inline;
-    font-family: sans-serif;
+    font-family: serif;
 }
+.link{
+    text-align: right;
+    font-size: 20px;
+    font-family: 'ubuntumedium';
+    padding-right: 60px;
 
 }
+.link a {
+    background-color: rgb(45,11,1);
+    text-decoration: none;
+    color: white;
+    border-radius: 15px; 
+    padding: 10PX
+}
+.first{
+    background-image: url(../images/background-image1.jpg);
+    /*background-repeat: repeat;*/
+    background-size: contain;
+}
+
+.intro{
+    text-align: center;
+}
+.intro h2{
+    display: inline;
+    font-size: 30px;
+    color: rgb(138,0,0);
+}
+.flex {
+    text-align: center;
+    /*margin-top: 50px;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*height: 300px;*/
+}
+
+.font1 a{
+    text-decoration-color: rgb(7,25,37); 
+ }
+ .mid{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 12px;
+ }
+ h3, h2{
+    color: rgb(45,11,1);
+}
+.food img{
+    height: 200px;
+    box-shadow: 0 0 5px;
+}
+.menu{
+    text-align: center;
+    padding: 20px;
+}
+ footer{
+    background-color: rgb(7,25,37);
+    justify-content: space-around;
+}
+.footlist li {
+    list-style-type: none;
+    line-height: 25px;
+}
+.footlist a{
+    /*text-decoration: none;*/
+    padding: 10px;
+    color: white;
+}
+
+.web {
+    font-size: 20px;
+    align-self: flex-end;
+    padding: 10px;
+}
+
+.copy {
+    background-color: black;
+    color: white;
+    text-align: right;
+    padding: 5px;
+}
+}
+
+
+@media only screen and (min-width: 600px) {
+     .col-md-1 {width: 8.33%;} 
+     .col-md-2 {width: 16.66%;} 
+     .col-md-3 {width: 25%;} 
+     .col-md-4 {width: 33.33%;} 
+     .col-md-5 {width: 41.66%;} 
+     .col-md-6 {width: 50%;} 
+     .col-md-7 {width: 58.33%;} 
+     .col-md-8 {width: 66.66%;} 
+     .col-md-9 {width: 75%;} 
+     .col-md-10 {width: 83.33%;} 
+     .col-md-11 {width: 91.66%;} 
+     .col-md-12 {width: 100%;}
+
+     *{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'ubuntumedium';
+}
+
+
+.login{
+    background-color: rgb(45,11,1);
+    padding: 5px;
+    height: 40px;
+}
+.login a{
+    margin-right: 10px;
+    float: right;
+    text-decoration: none;
+    background-color: rgb(13,0,10);
+    color: rgb(212,182,112);
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+  .logo img {
+    height: 150px;
+    margin-left: 10px;
+    padding-bottom: 5px;
+  }
+
+   .nav li{
+    padding: 10px;
+    /*list-style-type: none;*/
+    float: left;
+    margin-top: 35px;
+   }
+  .nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(212,182,112);
+  }
+
+  header {
+    background-color: rgb(13,0,10);
+    }
+   .banbox{
+    background-image: url(../images/banner.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+ }
+ #cover {
+    background-color: rgb(0,0,0,0.5);
+    height: 300px;
+ }
+
+ .banner{
+    text-align: right;
+    font-size: 35px;
+    font-family: 'montezregular';
+   /* position: relative;
+    right: 40px;
+    top: 40px;*/
+    color: white;
+    padding: 15px;
+}
+ .banner h1 {
+    display: inline;
+    font-family: serif;
+}
+.link{
+    text-align: right;
+    font-size: 20px;
+    font-family: 'ubuntumedium';
+    padding-right: 60px;
+
+}
+.link a {
+    background-color: rgb(45,11,1);
+    text-decoration: none;
+    color: white;
+    border-radius: 15px; 
+    padding: 10PX
+}
+.first{
+    background-image: url(../images/background-image1.jpg);
+    /*background-repeat: repeat;*/
+    background-size: contain;
+}
+
+.intro{
+    text-align: center;
+}
+.intro h2{
+    display: inline;
+    font-size: 30px;
+    color: rgb(138,0,0);
+}
+.flex {
+    text-align: center;
+    /*margin-top: 50px;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*height: 300px;*/
+}
+
+.font1 a{
+    text-decoration-color: rgb(7,25,37); 
+ }
+ .mid{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 12px;
+ }
+ h3, h2{
+    color: rgb(45,11,1);
+}
+.food img{
+    height: 200px;
+    box-shadow: 0 0 5px;
+}
+.menu{
+    text-align: center;
+    /*padding: 10px;*/
+}
+.menu div{
+    padding: 10px;
+}
+ footer{
+    background-color: rgb(7,25,37);
+    justify-content: space-around;
+}
+.footlist li {
+    list-style-type: none;
+    line-height: 25px;
+}
+.footlist a{
+    /*text-decoration: none;*/
+    padding: 10px;
+    color: white;
+}
+
+.web {
+    font-size: 20px;
+    align-self: flex-end;
+    padding: 10px;
+}
+
+.copy {
+    background-color: black;
+    color: white;
+    text-align: right;
+    padding: 5px;
+}
+}
+
+
