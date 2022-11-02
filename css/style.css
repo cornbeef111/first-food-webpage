@@ -9,6 +9,14 @@
 }
 
 
+@font-face {
+    font-family: 'pacificoregular';
+    src: url('../fonts/pacifico-regular-webfont.woff2') format('woff2'),
+         url('../fonts/pacifico-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 @font-face {
     font-family: 'aboretoregular';
@@ -59,174 +67,14 @@
 
 }
  a:hover{
-    color: brown;
+    color: seagreen;
   }
-@media only screen and (min-width: 768px){
-     .col-lg-1 {width: 8.33%;} 
-     .col-lg-2 {width: 16.66%;} 
-     .col-lg-3 {width: 25%;} 
-     .col-lg-4 {width: 33.33%;} 
-     .col-lg-5 {width: 41.66%;} 
-     .col-lg-6 {width: 50%;} 
-     .col-lg-7 {width: 58.33%;} 
-     .col-lg-8 {width: 66.66%;} 
-     .col-lg-9 {width: 75%;} 
-     .col-lg-10 {width: 83.33%;} 
-     .col-lg-11 {width: 91.66%;} 
-     .col-lg-12 {width: 100%;}
-
-
-*{
-    box-sizing: border-box;
-}
-body{
-    margin: 0;
-    font-family: 'ubuntumedium';
-}
-
-.login{
-    background-color: rgb(212,182,112);
-    padding: 5px;
-    height: 40px;
-}
-.login a{
-    margin-right: 30px;
-    float: right;
-    text-decoration: none;
-    background-color: rgb(132,2,11);
-    color: rgb(212,182,112);
-    border-radius: 15px;
-    padding: 5px 10px;
-}
-header {
-    background-color: rgb(13,0,10);
-    
-}
-.logo{
-    height: 100px;
-}
- .logo img {
-    height: 130px;
-    margin-left: 10px;
-    padding-bottom: 5px;
-}
-.nav li{
-    padding-right: 20px;
-    margin-bottom: 20px; 
-    /*list-style-type: none;*/
-    /*float: left;*/
-    justify-content: space-around;
-}
-.nav a {
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    color: rgb(212,182,112);
-    /*margin: 20px;*/
-}
-.banbox{
-    background-image: url(../images/banner.jfif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 500px;
-}
-#cover {
-    background-color: rgb(0,0,0,0.6);
-    height: 500px;
-}
-.banner{
-    text-align: right;
-    font-size: 50px;
-    font-family: 'montezregular';
-    position: relative;
-    right: 40px;
-    top: 40px;
-    color: white; 
-}
-.banner h1 {
-    display: inline;
-    font-family: serif;
-}
-.link{
-    text-align: right;
-    font-size: 30px;
-    font-family: 'ubuntumedium';
-    padding-right: 60px;
-
-}
-.link a {
-    background-color: rgb(183,237,255);
-    text-decoration: none;
-    color: rgb(45,11,1);
-    border-radius: 15px; 
-    padding: 5PX
-}
-.first{
-    background-image: url(../images/background-image1.jpg);
-    background-repeat: repeat;
-}
-.intro{
-    text-align: center;
-}
-.intro h2{
-    display: inline;
-    font-size: 40px;
-    color: rgb(138,0,0);
-}
-.flex {
-    text-align: center;
-    margin-top: 50px;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
-}
-.font1 a{
-    text-decoration-color: rgb(7,25,37); 
- }
- .mid{
-    text-align: center;
-    padding-bottom: 10px;
-    font-size: 15px;
- }
-.food img{
-    height: 200px;
-    box-shadow: 0 0 5px;
-}
-.menu{
-    text-align: center;
-    padding: 20px;
-}
- footer{
-    background-color: rgb(7,25,37);
-    justify-content: space-around;
-}
-.footlist li {
-    list-style-type: none;
-    line-height: 40px;
-}
-.footlist a{
-    text-decoration: none;
-    padding: 10px;
-    color: white;
-}
-.web {
-    font-size: 50px;
-    align-self: center;
-}
-.copy {
-    background-color: black;
-    color: white;
-    text-align: right;
-    padding: 10px;
-}
-.copy p {
-    display: inline;
-}
-h3, h2{
-    color: rgb(45,11,1);
-}
-
-}
+ .login a:hover{
+    color: seagreen;
+  }
+  .nav a:hover{
+    color: seagreen;
+  }
 
 
 @media only screen and (min-width: 992px){
@@ -247,63 +95,70 @@ h3, h2{
 *{
     box-sizing: border-box;
 }
+
 body{
     margin: 0;
     font-family: 'ubuntumedium';
 }
 
 .login{
-    background-color: rgb(118,60,0);
-    padding: 5px;
-    height: 40px;
+    background-color: #000;
+    padding: 10px;
+    height: 60px;
 }
 .login a{
     margin-right: 30px;
     float: right;
     text-decoration: none;
-    background-color: rgb(132,2,11);
-    color: rgb(212,182,112);
-    border-radius: 15px;
-    padding: 5px 10px;
+    background-color: rgb(138,0,0);
+    color: white;
+    border-radius: 15px 5px 15px 5px;
+    border: 1px solid white;
+    padding: 10px 15px;
 }
 header {
     background-color: rgb(13,0,10);
+    height: 100px;
+    align-content: center;
     
 }
 .logo{
-    height: 100px;
+    /*height: 100px;*/
 }
  .logo img {
-    height: 130px;
-    margin-left: 10px;
-    padding-bottom: 5px;
+    height: 80px;
+    margin: 5px 0px 0px 30px;
 }
+
 .nav li{
     padding-right: 20px;
-    margin-bottom: 20px; 
+    margin: 20px 0px 0px 25px;
+    /*padding-bottom: 20px;*/
+    /*margin-bottom: 20px; */
     /*list-style-type: none;*/
-    /*float: left;*/
-    justify-content: space-around;
+    float: left;
 }
 .nav a {
     color: white;
     text-decoration: none;
     font-size: 20px;
-    color: rgb(212,182,112);
-    margin: 25px;
+    color: white;
+    margin: 30px;
 }
 .banbox{
     background-image: url(../images/banner.jfif);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 700px;
+    /*padding-top: 50px;*/
 }
 #cover {
     background-color: rgb(0,0,0,0.6);
-    height: 500px;
+    height: 800px;
+    padding-top: 70px;
 }
 .banner{
-    text-align: right;
+    text-align: center;
     font-size: 50px;
     font-family: 'montezregular';
     position: relative;
@@ -313,21 +168,28 @@ header {
 }
 .banner h1 {
     display: inline;
-    font-family: serif;
+    font-family: 'pacificoregular';
+    font-weight: lighter;
 }
 .link{
-    text-align: right;
+    text-align: center;
     font-size: 30px;
     font-family: 'ubuntumedium';
-    padding-right: 60px;
+    padding: 40px;
+    animation-name: round;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+    animation-delay: 1s;
+    animation-timing-function: linear;
 
 }
 .link a {
-    background-color: rgb(183,237,255);
+    background-color: rgb(45,11,1);
     text-decoration: none;
-    color: rgb(45,11,1);
-    border-radius: 15px; 
-    padding: 5PX
+    color: white;
+    border-radius: 15px;
+    border: 1px solid white; 
+    padding: 10PX;
 }
 .first{
     background-image: url(../images/background-image1.jpg);
@@ -335,6 +197,11 @@ header {
 }
 .intro{
     text-align: center;
+    padding-top: 35px;
+    animation-name: grow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 .intro h2{
     display: inline;
@@ -356,21 +223,84 @@ header {
     padding-bottom: 10px;
     font-size: 15px;
  }
-.food img{
-    height: 300px;
-    box-shadow: 0 0 5px;
+.foodd {
+   /*background-color: red;*/
+   padding: 20px;
+   position: relative;
+}
+.foodd h2, p {
+    margin-left: 40px;
+    padding: 5px;
+}
+.forFood{
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    height: 200px;
+    margin-left: 30px;
+    padding: 40px;
+}
+.food1{
+    background-image: url(../images/egusi.png); 
+}
+.food2{
+    background-image: url(../images/rice-stew.jpg);  
+}
+.food3{
+    background-image: url(../images/beans.jpg);
+}
+.food4{
+     background-image: url(../images/fiofio.jpg);
+}
+.food5{
+     background-image: url(../images/bitterleaf.jpeg);
+}
+.food6{
+     background-image: url(../images/beef.png);
+}
+.badge{
+    background-color: green;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    top: 20px;
+    right: 65px;
+}
+.btn{
+    color: white;
+    background-color: rgb(45,11,1);
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+    text-decoration-line: none;
+    position: absolute;
+    right: 60px;
+    bottom: 38px;
+}
+.para{
+    font-size: 20px;
 }
 .menu{
-    text-align: center;
-    padding: 20px;
+    /*text-align: left;*/
+    padding: 30px;
 }
  footer{
     background-color: rgb(7,25,37);
     justify-content: space-around;
+    position: relative;
+}
+.footerimg{
+    background-image: url(../images/mamaify-logo1.jpeg);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 250px;
+    width: 120px;
+    background-color: rgb(13,0,10);
+
 }
 .footlist li {
     list-style-type: none;
-    line-height: 40px;
+    line-height: 50px;
 }
 .footlist a{
     text-decoration: none;
@@ -380,6 +310,34 @@ header {
 .web {
     font-size: 50px;
     align-self: center;
+    color: seagreen;
+}
+.para2{
+   display: inline-block;
+   margin: 20px 0px 0px 5px;
+   color: white;
+}
+.forLocation{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    bottom: 100px;
+    left: 195px;
+    padding: 5px;
+}
+.forPhone{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    bottom: 65px;
+    left: 195px;
+}
+.forEmail{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    bottom: 25px;
+    left: 195px;
 }
 .copy {
     background-color: black;
@@ -392,6 +350,24 @@ header {
 }
 h3, h2{
     color: rgb(45,11,1);
+}
+h3{
+    font-family: 'pacificoregular';
+}
+
+@keyframes round {
+    0%{ transform: rotate(0deg);}
+    25%{transform: rotate(90deg);}
+    50%{transform: rotate(180deg);}
+    75%{transform: rotate(270deg);}
+    100%{transform: rotate(360deg);}
+}
+@keyframes grow {
+    0% { transform: scale(1,1);}
+    25% { transform: scale(1.2,1.2);}
+    50% {transform: scale(1.5,1.5);}
+    75% {transform: scale(1.2,1.2);}
+    100% {transform: scale(1,1);}
 }
 
 }

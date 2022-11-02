@@ -20,27 +20,24 @@ body{
     font-family: 'ubuntumedium';
 }
 
-
 .login{
-    background-color: rgb(212,182,112);
-    padding: 5px;
-    height: 40px;
+    background-color: #000;
+    padding: 10px;
+    height: 60px;
 }
+
 .login a{
-    margin-right: 10px;
+    margin-right: 30px;
     float: right;
     text-decoration: none;
-    background-color: rgb(13,0,10);
-    color: rgb(212,182,112);
+    background-color: black;
+    color: white;
     border-radius: 15px;
-    padding: 5px 10px;
+    border: 2px solid white;
+    padding: 10px 10px;
 }
 
-  .logo img {
-    height: 150px;
-    margin-left: 10px;
-    padding-bottom: 5px;
-  }
+ 
 
    .nav li{
     padding: 5px;
@@ -56,7 +53,19 @@ body{
 
   header {
     background-color: rgb(13,0,10);
-    }
+    height: 100px;
+     align-content: center;
+    
+}
+.logo{
+    /*height: 100px;*/
+}
+.logo img {
+    height: 80px;
+    margin-top: 50px;
+    /*margin-left: 10px;*/
+    /*padding-bottom: 5px;*/
+}
    .banbox{
     background-image: url(../images/banner.jfif);
     background-size: cover;
@@ -69,7 +78,7 @@ body{
  }
 
  .banner{
-    text-align: right;
+    text-align: center;
     font-size: 35px;
     font-family: 'montezregular';
    /* position: relative;
@@ -80,21 +89,25 @@ body{
 }
  .banner h1 {
     display: inline;
-    font-family: serif;
+    font-family: 'pacificoregular';
+    font-weight: lighter;
 }
 .link{
-    text-align: right;
+    text-align: center;
     font-size: 20px;
     font-family: 'ubuntumedium';
     padding-right: 60px;
 
 }
 .link a {
-    background-color: rgb(45,11,1);
+    background-color: #000;
     text-decoration: none;
     color: white;
     border-radius: 15px; 
     padding: 10PX
+}
+.link a:hover {
+    color: brown;
 }
 .first{
     background-image: url(../images/background-image1.jpg);
@@ -188,28 +201,23 @@ body{
     font-family: 'ubuntumedium';
 }
 
-
 .login{
-    background-color: rgb(45,11,1);
-    padding: 5px;
-    height: 40px;
+    background-color: #000;
+    padding: 10px;
+    height: 60px;
 }
+
 .login a{
-    margin-right: 10px;
+    margin-right: 30px;
     float: right;
     text-decoration: none;
-    background-color: rgb(13,0,10);
-    color: rgb(212,182,112);
+    background-color: black;
+    color: white;
     border-radius: 15px;
-    padding: 5px 10px;
+    border: 2px solid white;
+    padding: 10px 10px;
 }
-
-  .logo img {
-    height: 150px;
-    margin-left: 10px;
-    padding-bottom: 5px;
-  }
-
+ 
    .nav li{
     padding: 10px;
     /*list-style-type: none;*/
@@ -223,9 +231,18 @@ body{
     color: rgb(212,182,112);
   }
 
-  header {
+ header {
     background-color: rgb(13,0,10);
-    }
+    height: 100px;
+     align-content: center;
+}
+
+ .logo img {
+    height: 80px;
+    margin-top: 22px;
+    /*margin-left: 10px;*/
+    /*padding-bottom: 5px;*/
+}
    .banbox{
     background-image: url(../images/banner.jfif);
     background-size: cover;
@@ -238,7 +255,7 @@ body{
  }
 
  .banner{
-    text-align: right;
+    text-align: center;
     font-size: 35px;
     font-family: 'montezregular';
    /* position: relative;
@@ -249,21 +266,25 @@ body{
 }
  .banner h1 {
     display: inline;
-    font-family: serif;
+     font-family: 'pacificoregular';
+    font-weight: lighter;
 }
 .link{
-    text-align: right;
+    text-align: center;
     font-size: 20px;
     font-family: 'ubuntumedium';
     padding-right: 60px;
 
 }
 .link a {
-    background-color: rgb(45,11,1);
+    background-color: #000;
     text-decoration: none;
     color: white;
     border-radius: 15px; 
     padding: 10PX
+}
+.link a:hover {
+    color: brown;
 }
 .first{
     background-image: url(../images/background-image1.jpg);
@@ -338,3 +359,177 @@ body{
 }
 
 
+@media only screen and (min-width: 768px){
+     .col-lg-1 {width: 8.33%;} 
+     .col-lg-2 {width: 16.66%;} 
+     .col-lg-3 {width: 25%;} 
+     .col-lg-4 {width: 33.33%;} 
+     .col-lg-5 {width: 41.66%;} 
+     .col-lg-6 {width: 50%;} 
+     .col-lg-7 {width: 58.33%;} 
+     .col-lg-8 {width: 66.66%;} 
+     .col-lg-9 {width: 75%;} 
+     .col-lg-10 {width: 83.33%;} 
+     .col-lg-11 {width: 91.66%;} 
+     .col-lg-12 {width: 100%;}
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'ubuntumedium';
+}
+
+.login{
+    background-color: #000;
+    padding: 10px;
+    height: 60px;
+}
+.login a{
+    margin-right: 30px;
+    float: right;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    border: 2px solid white;
+    padding: 10px 10px;
+}
+header {
+    background-color: rgb(13,0,10);
+    height: 100px;
+    align-content: center;
+    
+}
+.logo{
+    /*height: 100px;*/
+}
+ .logo img {
+    height: 80px;
+    margin-top: 22px;
+    /*margin-left: 10px;*/
+    /*padding-bottom: 5px;*/
+}
+.nav li{
+    padding-right: 20px;
+    margin-bottom: 20px; 
+    /*list-style-type: none;*/
+    /*float: left;*/
+    justify-content: space-around;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(212,182,112);
+    /*margin: 20px;*/
+}
+.banbox{
+    background-image: url(../images/banner.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+#cover {
+    background-color: rgb(0,0,0,0.6);
+    height: 500px;
+}
+.banner{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'montezregular';
+    position: relative;
+    right: 40px;
+    top: 40px;
+    color: white; 
+}
+.banner h1 {
+    display: inline;
+    font-family: 'pacificoregular';
+    font-weight: lighter;
+}
+.link{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'ubuntumedium';
+    padding-right: 60px;
+
+}
+.link a {
+    background-color: #000;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px; 
+    padding: 10PX
+}
+.link a:hover {
+    color: brown;
+}
+.first{
+    background-image: url(../images/background-image1.jpg);
+    background-repeat: repeat;
+}
+.intro{
+    text-align: center;
+}
+.intro h2{
+    display: inline;
+    font-size: 40px;
+    color: rgb(138,0,0);
+}
+.flex {
+    text-align: center;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.font1 a{
+    text-decoration-color: rgb(7,25,37); 
+ }
+ .mid{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 15px;
+ }
+.food img{
+    height: 200px;
+    box-shadow: 0 0 5px;
+}
+.menu{
+    text-align: center;
+    padding: 20px;
+}
+ footer{
+    background-color: rgb(7,25,37);
+    justify-content: space-around;
+}
+.footlist li {
+    list-style-type: none;
+    line-height: 40px;
+}
+.footlist a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+.web {
+    font-size: 50px;
+    align-self: center;
+}
+.copy {
+    background-color: black;
+    color: white;
+    text-align: right;
+    padding: 10px;
+}
+.copy p {
+    display: inline;
+}
+h3, h2{
+    color: rgb(45,11,1);
+}
+
+}
