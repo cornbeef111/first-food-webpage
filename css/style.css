@@ -352,13 +352,16 @@ header {
     font-size: 30px;
 }
 .psize{
-    background-size: 100%;
-    background-repeat: no-repeat;
+    /*background-size: 100%;*/
+    /*background-repeat: no-repeat;*/
     width: 30%;
-    height: 100%;
+    height: 600px;
 }
 .photo{
     background-image: url(../images/foodf.jpg);
+    background-size: 100%;
+    /*background-repeat: no-repeat;*/
+    height: 100%;
 }
 
 #first{
