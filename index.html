@@ -5,8 +5,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="css/grid.css">
-  <link rel="stylesheet" type="text/css" href="css/quer.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/media600max.css">
+  <link rel="stylesheet" type="text/css" href="css/media600min.css">
+   <link rel="stylesheet" type="text/css" href="css/query.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 		<title>Mama-Ify Home Page</title>
 </head>
 <body>
@@ -29,6 +31,9 @@
 	             <li><a href="#"> Order Now </a> </li>
 	          </ul>
           
+            <div class="offcanvas col-2">
+              <p>----<br>----<br>----</p>
+            </div>
        </header>
 
        <section class="banbox">
@@ -75,7 +80,7 @@
 
 
         <section class="menu container row">
-              <div class="foodd col-4 col-sm-6 col-md-4 col-lg-4">
+              <div class="foodd col-4 col-sm-12 col-md-6 col-lg-4 col-xl-4">
                  <div class="food1 forFood"></div> 
                  <h2> Egusi + Semo + 2Beef </h2>
                  <p> Well prepared egusi soup with beef and two well pounded semovita </p>
@@ -84,7 +89,7 @@
                   <a href="#" class="btn">ORDER NOW </a>
               </div>
 
-        	 <div class="foodd col-4 col-sm-6 col-md-4 col-lg-4">
+        	 <div class="foodd col-4 col-sm-6 col-md-6 col-lg-4 col-xl-4">
                   <div class="food2 forFood"></div> 
                   <h2> Rice + Stew + 2beef </h2>
                   <p> Well prepared egusi soup with beef and two well pounded semovita </p>
@@ -93,7 +98,7 @@
                   <a href="#" class="btn">ORDER NOW </a>
               </div>
 
-        	 <div class="foodd col-4 col-sm-6 col-md-4 col-lg-4">
+        	 <div class="foodd col-4 col-sm-6 col-md-6 col-lg-4 col-xl-4">
                  <div class="food3 forFood"></div> 
                  <h2> Beans </h2> 
                  <p> Well prepared egusi soup with beef and two well pounded semovita </p>
@@ -102,7 +107,7 @@
                   <a href="#" class="btn">ORDER NOW </a>
               </div>
 
-        	 <div class="foodd col-4 col-sm-6 col-md-4 col-lg-4">
+        	 <div class="foodd col-4 col-sm-6 col-md-6 col-lg-4 col-xl-4">
                  <div class="food4 forFood"></div>
                  <h2> Fio-Fio + Fish </h2> 
                  <p> Well prepared egusi soup with beef and two well pounded semovita </p>
@@ -111,7 +116,7 @@
                  <a href="#" class="btn">ORDER NOW </a>
               </div>
 
-        	 <div class="foodd col-4 col-sm-6 col-md-4 col-lg-4">
+        	 <div class="foodd col-4 col-sm-6 col-md-6 col-lg-4 col-xl-4">
                  <div class="food5 forFood"></div> 
                  <h2> Bitterleaf Soup </h2>
                  <p> Well prepared egusi soup with beef and two well pounded semovita </p>
@@ -120,7 +125,7 @@
                   <a href="#" class="btn">ORDER NOW </a>
               </div>
 
-        	 <div class="foodd col-4 col-sm-6 col-md-4 col-lg-4">
+        	 <div class="foodd col-4 col-sm-6 col-md-6 col-lg-4 col-xl-4">
                  <div class="food6 forFood"></div>
                  <h2> Fried Goat Meat </h2>
                   <p> Well prepared egusi soup with beef and two well pounded semovita </p>
@@ -129,33 +134,142 @@
                  <a href="#" class="btn">ORDER NOW </a> 
               </div>
         </section>
+            
+          <section id="secsec" class="row">
+              <div class="photo psize"> 
+              </div>
 
+              <div id="first" class=>
+                    <div class="sideselect">
+                         <label for="delivery">Delivery</label>
+                         <input type="radio" name="dev" id="delivery" value="delivery">
+                         <label for="pickup">Pickup</label>
+                         <input type="radio" name="dev" id="pickup" value="pickup">
+                         <label for="eatin">Eat-in</label>
+                         <input type="radio" name="dev" id="eatin" value="eatin">
+                    </div>
+                    
+                <div class="row">
+                    <div class="sideselect2">
+                      <form class="">
+                           <label class="">Select Delivery Time Slot</label><br>
+                             <select class="">
+                               <option value="10am-2pm">10am-2pm</option>
+                               <option value="3pm-6pm">3pm-6pm</option>
+                               <option value=""selected>Select Time</option>
+                             </select>
+                      </form>
+                    </div>
+                    <div class="sideselect2">
+                      <form>
+                          <label class="">Select Delivery District</label><br>
+                            <select class="">
+                               <option value="obiagu">Obiagu</option>
+                               <option value="uwani">Uwani</option>
+                               <option value=""selected>Select Time</option>
+                           </select>
+                     </form>
+                    </div>
+               </div>
 
+                    <form class="sideselect3">
+                      <label for="address">Address*</label><br>
+                      <input type="text" name="address" id="address" value="Enter address">
+                      <br>
+                      <label for="note">Extra note</label>
+                      <input type="text" name="note" id="note" placeholder="Input extra details">
+                    </form>
+                    <button class="submit">Submit</button>
+              </div>
+
+            <!-- end of first one -->
+               <div id="second">
+                    <div class="sideselect">
+                         <label for="delivery1">Delivery</label>
+                         <input type="radio" name="dev" id="delivery1" value="delivery">
+                         <label for="pickup1">Pickup</label>
+                         <input type="radio" name="dev" id="pickup1" value="pickup">
+                         <label for="eatin1">Eat-in</label>
+                         <input type="radio" name="dev" id="eatin1" value="eatin">
+                    </div>
+                    <div>
+                       <form class="sideselect3">
+                          <label>Select Pick-up Time Slot</label><br>
+                            <select>
+                            <option value="10am-2pm">10am-2pm</option>
+                            <option value="3pm-6pm">3pm-6pm</option>
+                            <option value=""selected>Select Time</option>
+                            </select> <br><br>
+                            <label> Pick up/Eat-in address</label><br>
+                            <input type="text" class="eatshift" value="N0 1 Damian street,Abakpa,Enugu." disabled><br><br>
+                            <label for="note1">Extra note</label><br>
+                            <input type="text" name="note1" id="note1" placeholder="Input extra details">
+                      </form>
+                    </div>
+                    <button class="submit">Submit</button>
+                </div>
+                <!-- end of second one -->
+                <div id="third">
+                    <div class="sideselect">
+                         <label for="delivery2">Delivery</label>
+                         <input type="radio" name="dev" id="delivery2" value="delivery">
+                         <label for="pickup2">Pickup</label>
+                         <input type="radio" name="dev" id="pickup2" value="pickup">
+                         <label for="eatin2">Eat-in</label>
+                         <input type="radio" name="dev" id="eatin2" value="eatin">
+                   </div>
+                   <div>
+                       <form class="sideselect3">
+                          <label>Select eat-in Time </label><br>
+                            <select>
+                            <option value="10am-2pm">10am-2pm</option>
+                            <option value="3pm-6pm">3pm-6pm</option>
+                            <option value=""selected>Select Time</option>
+                            </select> <br><br>
+                            <label> Pick up/Eat-in address</label><br>
+                            <input type="text" class="eatshift" value="N0 1 Damian street,Abakpa,Enugu." disabled><br><br>
+                            <label for="note1">Extra note</label><br>
+                            <input type="text" name="note1" id="note1" placeholder="Input extra details">
+                      </form>
+                    </div>
+                    <button class="submit">Submit</button>
+              </div>
+                  <!-- end of third one -->
+            </section>
+           
+
+           <div class="help">
+             <h1>NEED HELP ?</h1>
+             <h5>Call our support 24/7 @ 0810-392-8104 </h5>
+              <a href="#" class="helpLink"> CONTACT NOW </a>
+          </div>
    
         <footer class="row">
-          <div class="footerimg"> </div>
-          <div>
+          <div class="footerimg col-sm-3"> </div>
+          <div class="col-sm-9 ">
              <p class="para2">In our restuarant, we strive to <br>give you the best of locally made meals.<br> We are family and family look after one another.</p>
            </div>
-           <i class="fa-solid fa-location-dot forLocation"> &nbsp;132 New Design STR,Australia </i>
-           <i class="fa-solid fa-phone forPhone"> &nbsp;(234) 810-392-8104 </i>
-           <i class="fa-solid fa-envelope forEmail"> &nbsp;edembaonyekachi@ymail.com</i>
+           <i class="fa-solid fa-location-dot forLocation col-sm-12"> &nbsp;132 New Design STR,Australia </i>
+           <i class="fa-solid fa-phone forPhone col-sm-12"> &nbsp;(234) 810-392-8104 </i>
+           <i class="fa-solid fa-envelope forEmail col-sm-12"> &nbsp;edembaonyekachi@ymail.com</i>
 
-	        <div class="footlist">
+	        <div class="footlist col-sm-4 col-md-6 move1">
 	          <ul>
 		         <li><a href=""> <i class="fa-solid fa-angles-right"></i> &nbsp;Gift Card</a></li>
 		         <li><a href=""> <i class="fa-solid fa-angles-right"></i> &nbsp; Contact Us</a></li>
 		         <li><a href=""> <i class="fa-solid fa-angles-right"></i> &nbsp;Investors</a></li>
 		         <li><a href=""> <i class="fa-solid fa-angles-right"></i> &nbsp;Blog</a></li>
+            </ul>
 	       </div>
-	       <div class="footlist">
+	       <div class="footlist extra col-sm-6 col-md-6  ">
 		      <ul>
-		         <li><a href=""> <i class="fa-solid fa-angles-right"></i> &nbsp;Site map</li></a>
-		         <li><a href=""> <i class="fa-solid fa-angles-right"></i> &nbsp;Cookies and Tracking</li></a>
+		         <li><a href=""> <i class="fa-solid fa-angles-right"></i> &nbsp;Site map </a></li>
+		         <li><a href=""> <i class="fa-solid fa-angles-right"></i> &nbsp;Tracking</li></a>
 		         <li><a href=""> <i class="fa-solid fa-angles-right"></i> &nbsp;Privacy Policy</li></a>
-		         <li><a href=""> <i class="fa-solid fa-angles-right"></i> &nbsp;Terms and Conditions</li></a>
+		         <li><a href=""> <i class="fa-solid fa-angles-right"></i> &nbsp;Terms and Condt.</li></a>
+          </ul>
 	       </div>
-	       <div class="web">
+	       <div class="web col-sm-12 ">
 		       <i class="fa-brands fa-square-instagram"></i>
 		       <i class="fa-brands fa-twitter"></i>
 		       <i class="fa-brands fa-facebook-f"></i>
@@ -170,4 +284,6 @@
        </aside>
 
   </main>
+
+  <script type="text/javascript" src="first-project.js"></script>
 </body>
