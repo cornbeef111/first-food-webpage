@@ -67,3 +67,29 @@ document.addEventListener('click',function(){
        third.style.display='block';
    } 
 });
+
+document.addEventListener('DOMContentLoaded',function(){
+    x.style.display='none';
+});
+let offcanvas = document.getElementById('forcanvas');
+let x = document.getElementById('forx');
+let nav = document.getElementById('fornav');
+let logo = document.getElementById('loogo');
+
+offcanvas.addEventListener('click',function(){
+    if (forcanvas=true){
+        offcanvas.style.display='none';
+        x.style.display='block';
+        nav.style.display='block';
+        logo.style.marginTop='40px';
+    };
+});
+
+x.addEventListener('click',function(){
+    if(true){
+        offcanvas.style.display='block';
+        nav.style.display='none';
+        x.style.display='none';
+        logo.style.marginTop='5px';
+     };
+});

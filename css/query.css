@@ -63,7 +63,7 @@ header {
     color: white;
     text-decoration: none;
     font-size: 20px;
-    color: white;
+    color: rgb(212,182,112);
     /*margin-right: 10px;*/
 }
 .offcanvas{
@@ -190,7 +190,7 @@ header {
     padding: 5px;
     position: absolute;
     top: 20px;
-    right: 20px;
+    right: 40px;
 }
 .btn{
     color: white;
@@ -206,6 +206,107 @@ header {
 .menu{
     padding: 20px;
 }
+#secsec{
+    height: 600px;
+    width: 100%;
+    font-size: 30px;
+}
+.psize{
+    width: 30%;
+    height: 100%;
+}
+.photo{
+    background-image: url(../images/foodf.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+#first{
+    background-color: brown;
+    width: 70%;
+}
+#second{
+    background-color: royalblue;
+    width: 70%;
+}
+#third{
+    background-color: orange;
+    width: 70%;
+}
+.sideselect{
+    padding: 30px;
+    align-content: center;
+    font-size: 40px;
+    font-family: 'aboretoregular', chicleregular;
+    text-align: center;
+}
+.sideselect label{
+  margin-left: 30px;
+}
+.sideselect2{
+    padding: 10px;
+}
+.sideselect2 label{
+    margin-left: 20px;
+    font-size: 18px;
+}
+.sideselect2 input{
+    margin-left: 40px;
+}
+.sideselect2 select{
+   padding: 10px;
+   margin-left: 20px;
+   margin-top: 5px;
+   font-size: 20px;
+   width: 250px;
+   border: 1px dashed ;
+   border-radius: 5px;
+}
+.sideselect3 select{
+   padding: 10px;
+   margin-left: 80px;
+   margin-top: 10px;
+   font-size: 20px;
+   width: 70%;
+   border: 1px dashed ;
+   border-radius: 5px;
+}
+.sideselect3 label{
+    margin-left: 40px;
+    padding: 40px;
+    font-size: 20px;
+}
+.sideselect3 input{
+    margin-left: 80px;
+    margin-top: 20px;
+    width: 70%;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px dashed black;
+    transform: uppercase;
+}
+.eatshift{
+    padding: 10px;
+    width: 37%;
+    margin-top: 20px;
+}
+button{
+    margin-left: 38%;
+    margin-top: 40px;
+}
+.submit{
+   padding: 12px;
+   width: 150px;
+   font-size: 20px;
+   font-family: fantasy;
+   border-radius: 8px;
+}
+button:hover{
+    color: white;
+    background-color: black;
+}
+
 .help{
     background-color: rgb(240,237,238);
     padding: 10px 20px 5px 20px;

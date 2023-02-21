@@ -19,19 +19,21 @@
        </div>
        
        <header class="row">
-           <div class="logo col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+           <div class="logo col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3" id="loogo">
              <img src="images/mamaify-logo1.jpeg">
            </div>
            
-	          <ul class="nav col-9 col-sm-9 col-md-9 col-lg-9 col-xl-9">
+	          <ul class="nav col-9 col-sm-9 col-md-9 col-lg-9 col-xl-9" id="fornav">
 	             <li><a href="https://cornbeef111.github.io/first-food-webpage/"> Home </a> </li>
 	             <li><a href="https://cornbeef111.github.io/first-food-webpage-cart/"> Cart </a> </li>
 	             <li><a href="https://cornbeef111.github.io/first-food-webpage-about/"> About </a> </li>
 	             <li><a href="#"> Contact </a> </li>
 	             <li><a href="#"> Order Now </a> </li>
+                
 	          </ul>
+            <p id="forx"> X </p>
           
-            <div class="offcanvas col-2">
+            <div class="offcanvas col-2" id="forcanvas">
               <p>----<br>----<br>----</p>
             </div>
        </header>
@@ -140,10 +142,10 @@
                  <div class="photo"></div>
               </div>
 
-              <div id="first" class=>
+              <div id="first" class="backphoto">
                     <div class="sideselect">
                          <label for="delivery">Delivery</label>
-                         <input type="radio" name="dev" id="delivery" value="delivery">
+                         <input type="radio" name="dev" id="delivery" value="delivery" checked>
                          <label for="pickup">Pickup</label>
                          <input type="radio" name="dev" id="pickup" value="pickup">
                          <label for="eatin">Eat-in</label>
@@ -177,14 +179,14 @@
                       <label for="address">Address*</label><br>
                       <input type="text" name="address" id="address" value="Enter address">
                       <br>
-                      <label for="note">Extra note</label>
+                      <label for="note">Extra note</label><br>
                       <input type="text" name="note" id="note" placeholder="Input extra details">
                     </form>
                     <button class="submit">Submit</button>
               </div>
 
             <!-- end of first one -->
-               <div id="second">
+               <div id="second" class="backphoto">
                     <div class="sideselect">
                          <label for="delivery1">Delivery</label>
                          <input type="radio" name="dev" id="delivery1" value="delivery">
@@ -210,7 +212,7 @@
                     <button class="submit">Submit</button>
                 </div>
                 <!-- end of second one -->
-                <div id="third">
+                <div id="third" class="backphoto">
                     <div class="sideselect">
                          <label for="delivery2">Delivery</label>
                          <input type="radio" name="dev" id="delivery2" value="delivery">

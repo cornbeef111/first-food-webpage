@@ -143,7 +143,7 @@ header {
     color: white;
     text-decoration: none;
     font-size: 20px;
-    color: white;
+    color: rgb(212,182,112);
     margin: 30px;
 }
 .offcanvas{
@@ -306,7 +306,7 @@ header {
     padding: 5px;
     position: absolute;
     top: 20px;
-    right: 73px;
+    right: 63px;
 }
 .badge2{
     background-color: green;
@@ -352,15 +352,14 @@ header {
     font-size: 30px;
 }
 .psize{
-    /*background-size: 100%;*/
-    /*background-repeat: no-repeat;*/
     width: 30%;
     height: 600px;
 }
 .photo{
     background-image: url(../images/foodf.jpg);
-    background-size: 100%;
-    /*background-repeat: no-repeat;*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 100%;
 }
 
@@ -388,18 +387,19 @@ header {
   margin-left: 40px;
 }
 .sideselect2{
-    padding: 40px;
+    padding: 10px;
 }
 .sideselect2 label{
-    margin-left: 40px;
+    margin-left: 55px;
+    font-size: 30px;
 }
 .sideselect2 input{
-    margin-left: 40px;
+    margin-left: 20px;
 }
 .sideselect2 select{
    padding: 5px;
-   margin-left: 40px;
-   margin-top: 10px;
+   margin-left: 55px;
+   /*margin-top: 10px;*/
    font-size: 20px;
    width: 350px;
    border: 1px dashed ;
@@ -408,7 +408,7 @@ header {
 .sideselect3 select{
    padding: 10px;
    margin-left: 80px;
-   margin-top: 10px;
+   /*margin-top: 10px;*/
    font-size: 20px;
    width: 70%;
    border: 1px dashed ;
@@ -417,6 +417,7 @@ header {
 .sideselect3 label{
     margin-left: 40px;
     padding: 40px;
+    font-size: 30px;
 }
 .sideselect3 input{
     margin-left: 80px;
