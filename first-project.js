@@ -81,7 +81,7 @@ offcanvas.addEventListener('click',function(){
         offcanvas.style.display='none';
         x.style.display='block';
         nav.style.display='block';
-        logo.style.marginTop='40px';
+        // logo.style.marginTop='75px';
     };
 });
 
@@ -90,6 +90,6 @@ x.addEventListener('click',function(){
         offcanvas.style.display='block';
         nav.style.display='none';
         x.style.display='none';
-        logo.style.marginTop='5px';
+        // logo.style.marginTop='5px';
      };
 });

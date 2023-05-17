@@ -1,0 +1,454 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'ubuntumedium';
+}
+
+@font-face {
+    font-family: 'pinyon_scriptregular';
+    src: url('../fonts/pinyonscript-regular-webfont.woff2') format('woff2'),
+         url('../fonts/pinyonscript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'pacificoregular';
+    src: url('../fonts/pacifico-regular-webfont.woff2') format('woff2'),
+         url('../fonts/pacifico-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aboretoregular';
+    src: url('../fonts/aboreto-regular-webfont.woff2') format('woff2'),
+         url('../fonts/aboreto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'chicleregular';
+    src: url('../fonts/chicle-regular-webfont.woff2') format('woff2'),
+         url('../fonts/chicle-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'ubunturegular';
+    src: url('../fonts/ubuntu-regular-webfont.woff2') format('woff2'),
+         url('../fonts/ubuntu-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'ubuntumedium';
+    src: url('../fonts/ubuntu-medium-webfont.woff2') format('woff2'),
+         url('../fonts/ubuntu-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'montezregular';
+    src: url('../fonts/montez-regular-webfont.woff2') format('woff2'),
+         url('../fonts/montez-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@keyframes round {
+    0%{ transform: rotate(0deg);}
+    25%{transform: rotate(90deg);}
+    50%{transform: rotate(180deg);}
+    75%{transform: rotate(270deg);}
+    100%{transform: rotate(360deg);}
+}
+@keyframes grow {
+    0% { transform: scale(1,1);}
+    25% { transform: scale(1.2,1.2);}
+    50% {transform: scale(1.5,1.5);}
+    75% {transform: scale(1.2,1.2);}
+    100% {transform: scale(1,1);}
+}
+@media only screen and (max-width: 480px){
+    .col-sm-1 {width: 8.33%;} 
+     .col-sm-2 {width: 16.66%;} 
+     .col-sm-3 {width: 25%;} 
+     .col-sm-4 {width: 33.33%;} 
+     .col-sm-5 {width: 41.66%;} 
+     .col-sm-6 {width: 50%;} 
+     .col-sm-7 {width: 58.33%;} 
+     .col-sm-8 {width: 66.66%;} 
+     .col-sm-9 {width: 75%;} 
+     .col-sm-10 {width: 83.33%;} 
+     .col-sm-11 {width: 91.66%;} 
+     .col-sm-12 {width: 100%;}
+
+ .login{
+    background-color: #000;
+    padding: 10px;
+    height: 60px;
+}
+
+.login a{
+    margin-right: 10px;
+    float: right;
+    text-decoration: none;
+    background-color: rgb(138,0,0);
+    color: white;
+    border-radius: 15px 5px 15px 5px;
+    border: 1px solid white;
+    padding: 8px 8px;
+}
+ header {
+    background-color: rgb(13,0,10);
+    position: relative;
+}
+#loogo img{
+    height: 85px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+nav li{
+    list-style-type: none;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(212,182,112)
+}
+nav ul{
+    text-align: right;
+    margin-right: 35px;
+}
+#fornav{
+    display: none;
+}
+#forx{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    color: red;
+  }
+ #forx:hover{
+    color: green;
+  }
+.offcanvas{
+    color: white;
+    position: absolute;
+    right: 25px;
+    bottom: 10px;
+}
+.offcanvas > p{
+    color: white;
+    border: 2px solid white;
+    line-height: 10px;
+    cursor: pointer;
+    padding: 8px; 
+}
+.offcanvas > p:hover{
+    color: seagreen;
+}
+.banbox{
+    background-image: url(../images/banner2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+ }
+#cover {
+    background-color: rgb(0,0,0,0.5);
+    height: 300px;
+ }
+ .banner{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'montezregular';
+    color: white;
+    padding: 5px;
+}
+.link{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'ubuntumedium';
+    animation-name: round;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+}
+.link a {
+    background-color: rgb(45,11,1);
+    text-decoration: none;
+    color: white;
+    border-radius: 15px; 
+    border: 1px solid white;
+    padding: 7PX
+}
+.link a:hover {
+    color: brown;
+}
+.first{
+    background-image: url(../images/background-image1.jpg);
+    background-size: cover;
+    text-align: center;
+}
+.intro{
+    text-align: center;
+    animation-name: grow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.intro h2{
+    font-size: 25px;
+    color: rgb(138,0,0);
+}
+
+.font1 a{
+    text-decoration-color: rgb(7,25,37);
+    font-family: 'pacificoregular'; 
+    color: rgb(45,11,1);
+ }
+ .mid{
+    padding: 5px;
+    font-size: 12px;
+ }
+#foodsectionpad{
+    padding: 15px;
+}
+.foodd {
+    height: 200px;
+    width: 220px;
+    padding: 10px;
+}
+.forFood{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+.food1{
+    background-image: url(../images/egusi.png); 
+}
+.food2{
+    background-image: url(../images/rice-stew.jpg);  
+}
+.food3{
+    background-image: url(../images/beans.jpg);
+}
+.food4{
+     background-image: url(../images/fiofio.jpg);
+}
+.food5{
+     background-image: url(../images/bitterleaf.jpeg);
+}
+.food6{
+     background-image: url(../images/beef.png);
+}
+.foodsection{
+    position: relative;
+}
+.badge{
+    font-size: 10px;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+.btn{
+    color: white;
+    background-color: rgb(45,11,1);
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration-line: none;
+    float: right;
+    position: relative;
+    bottom: 55px;
+    right: 20px;
+}
+#secsec{
+    /*height: 600px;*/
+    width: 100%;
+    /*padding: 10px;*/
+    /*font-size: 10px;*/
+}
+.backphoto{
+    background-image: url(../images/foodf.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+#first{
+    
+    width: 100%;
+}
+#second{
+   
+    width: 100%;
+}
+#third{
+    
+    width: 100%;
+}
+
+.sideselect{
+    padding: 20px;
+    align-content: center;
+    font-size: 25px;
+    font-family: 'aboretoregular', chicleregular;
+    text-align: center;
+    color: white;
+}
+.sideselect2{
+    padding: 10px;
+    margin-left: 15px;
+    color: white;
+}
+.sideselect2 select{
+   padding: 10px;
+   /*margin-left: 15px;*/
+   margin-top: 5px;
+   font-size: 20px;
+   width: 250px;
+   border: 1px dashed ;
+   border-radius: 5px;
+}
+.sideselect3 select{
+   padding: 10px;
+   margin-left: 25px;
+   margin-top: 10px;
+   font-size: 20px;
+   width: 70%;
+   border: 1px dashed ;
+   border-radius: 5px;
+}
+.sideselect3 label{
+    margin-left: 15px;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+}
+.sideselect3 input{
+    margin-left: 25px;
+    margin-top: 15px;
+    width: 70%;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px dashed black;
+    color: red;
+}
+
+.eatshift{
+    padding: 10px;
+    width: 37%;
+    margin-top: 20px;
+}
+button{
+    margin-left: 38%;
+    margin-top: 40px;
+}
+
+.submit{
+   padding: 12px;
+   width: 150px;
+   font-size: 20px;
+   font-family: fantasy;
+   border-radius: 8px;
+}
+button:hover{
+    color: white;
+    background-color: black;
+}
+.help{
+    background-color: rgb(240,237,238);
+    padding: 10px 10px 5px 20px;
+    position: relative;
+    font-family: 'aboretoregular';
+    font-weight: bold;
+    font-size: 15px;
+}
+.help a{
+    position: absolute;
+    right: 20px;
+    bottom: 55px;
+}
+.helpLink{
+    border-radius: 25px;
+    padding: 15px 15px 15px 15px;
+    background-color:rgb(244,178,178); 
+    /*padding-bottom: 20px;*/
+    text-decoration-line: none;
+    color: white;
+    font-weight: bolder;
+    font-family: 'aboretoregular';
+}
+footer{
+    background-color: rgb(13,0,10);
+    background-image: url(../images/mamaify-logo1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    background-size: 200px 200px;
+}
+.footerimg{
+    padding: 10px;
+    background-color: black;
+    opacity: 0.9;
+}
+.para2{
+   display: inline;
+   font-size: 15px;
+   margin: 0px;
+   padding: 0px;
+}
+.footlist li {
+    list-style-type: none;
+    line-height: 25px;  
+}
+
+.footlist a{
+    text-decoration: none;
+    color: white;
+}
+.below{
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.move{
+    margin-top: 50px;
+}
+.copy {
+    background-color: black;
+    color: white;
+    text-align: center;
+    /*display: inline-block;*/
+    padding: 3px;
+}
+
+
+
+
+}

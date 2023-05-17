@@ -77,7 +77,7 @@
   }
 
 
-@media only screen and (min-width: 992px){
+@media all and (min-width: 1025px){
      .col-xl-1 {width: 8.33%;} 
      .col-xl-2 {width: 16.66%;} 
      .col-xl-3 {width: 25%;} 
@@ -132,7 +132,7 @@ header {
 }
 
 .nav li{
-    padding-right: 20px;
+    padding-right: 15px;
     margin: 20px 0px 0px 25px;
     /*padding-bottom: 20px;*/
     /*margin-bottom: 20px; */
@@ -504,7 +504,7 @@ button:hover{
     color: white;
     position: absolute;
     bottom: 100px;
-    left: 45px;
+    left: 30px;
     padding: 5px;
 }
 .forPhone{
@@ -512,14 +512,15 @@ button:hover{
     color: white;
     position: absolute;
     bottom: 55px;
-    left: 35px;
+    left: 20px;
 }
 .forEmail{
     font-size: 15px;
     color: white;
     position: absolute;
-    bottom: 25px;
-    left: 35px;
+    bottom: 50px;
+    left: 20px;
+    padding-top: 30px;
 }
 .copy {
     background-color: black;
