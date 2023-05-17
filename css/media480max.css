@@ -393,7 +393,7 @@ button:hover{
 .help a{
     position: absolute;
     right: 20px;
-    bottom: 55px;
+    bottom: 50px;
 }
 .helpLink{
     border-radius: 25px;
@@ -441,7 +441,7 @@ footer{
     font-size: 12px;
 }
 .move{
-    margin-top: 50px;
+    margin-top: 60px;
 }
 .copy {
     background-color: white;
