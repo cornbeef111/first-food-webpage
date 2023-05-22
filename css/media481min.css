@@ -1,5 +1,5 @@
 
-@media only screen and (min-width: 481px) {
+@media only screen and (max-width: 767px){
      .col-md-1 {width: 8.33%;} 
      .col-md-2 {width: 16.66%;} 
      .col-md-3 {width: 25%;} 
@@ -13,14 +13,6 @@
      .col-md-11 {width: 91.66%;} 
      .col-md-12 {width: 100%;}
 
-*{
-    box-sizing: border-box;
-}
-body{
-    margin: 0;
-    font-family: 'ubuntumedium';
-    color: green;
-}
 
 .login{
     background-color: #000;
@@ -38,39 +30,28 @@ body{
     border: 1px solid white;
     padding: 10px 10px;
 }
-
- 
-.nav li{
-    padding: 7px;
+header {
+    background-color: rgb(13,0,10);
+    position: relative;
+}
+#loogo img {
+    height: 90px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+nav li{
+    padding: 8px;
     list-style-type: none;
     float: left;
     margin-top: 25px;
  }
-.nav a {
+nav a {
     text-decoration: none;
-    font-size: 20px;
     color: rgb(212,182,112);
-    margin: 5px;
   }
-.fornav{
-    display: none;
-}
 .offcanvas{
     display: none;
   }
-
- header {
-    background-color: rgb(13,0,10);
-    height: 100px;
-     align-content: center;
-}
-
- .logo img {
-    height: 80px;
-    margin-top: 10px;
-    margin-left: 10px;
-    /*padding-bottom: 5px;*/
-}
    .banbox{
     background-image: url(../images/banner2.jpg);
     background-size: cover;
@@ -86,22 +67,13 @@ body{
     text-align: center;
     font-size: 35px;
     font-family: 'montezregular';
-   /* position: relative;
-    right: 40px;
-    top: 40px;*/
     color: white;
-    padding: 35px;
-}
- .banner h1 {
-    display: inline;
-     font-family: 'pacificoregular';
-    font-weight: lighter;
+    padding: 10px;
 }
 .link{
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'ubuntumedium';
-    padding-right: 60px;
     animation-name: round;
     animation-duration: 2s;
     animation-iteration-count: 2;
@@ -121,64 +93,45 @@ body{
 }
 .first{
     background-image: url(../images/background-image1.jpg);
-    /*background-repeat: repeat;*/
-    background-size: contain;
+    background-size: cover;
+    text-align: center;
 }
 
 .intro{
     text-align: center;
-     animation-name: grow;
+    animation-name: grow;
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 .intro h2{
-    display: inline;
     font-size: 30px;
     color: rgb(138,0,0);
 }
-.flex {
-    text-align: center;
-    /*margin-top: 50px;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
-    /*height: 300px;*/
-}
 
 .font1 a{
-    text-decoration-color: rgb(7,25,37); 
+    text-decoration-color: rgb(7,25,37);
+    font-family: 'pacificoregular'; 
+    color: rgb(45,11,1); 
  }
  .mid{
-    text-align: center;
-    padding-bottom: 10px;
+    padding: 10px;
     font-size: 12px;
  }
- h3, h2{
-    color: rgb(45,11,1);
+ .foodsection{
+    position: relative;
+    margin-left: 15px;
 }
-.menu{
-    /*text-align: center;*/
-    padding: 10px;
-}
-
-/*.menu div{
-    padding: 10px;
-}*/
 .foodd {
-   padding: 20px;
-   position: relative;
-   /*width: 100%;*/
+    height: 200px;
+    width: 220px;
+    padding: 30px;
+    margin-bottom: 10px;
 }
 .forFood{
     background-size:100%;
     background-repeat: no-repeat;
-    height: 250px;
-    width: 90%;
-    /*margin-left: 30px;*/
-}
-.foodd h2, p {
-    margin-left: 10px;
-    padding: 5px;
+    height: 200px;
 }
 .food1{
     background-image: url(../images/egusi.png); 
@@ -200,11 +153,12 @@ body{
 }
 .badge{
     background-color: green;
+    font-size: 10px;
     color: white;
     padding: 5px;
     position: absolute;
-    top: 20px;
-    right: 50px;
+    top: 38px;
+    right: 40px;
 }
 .btn{
     color: white;
@@ -214,18 +168,18 @@ body{
     padding: 10px 10px 10px 10px;
     text-decoration-line: none;
     position: absolute;
-    right: 75px;
+    right: 35px;
     bottom: 30px;
 }
+.para{
+    font-size: 20px;
+}
 #secsec{
-    height: 600px;
     width: 100%;
-    font-size: 30px;
 }
 
 .psize{
     width: 30%;
-    height: 100%;
 }
 
 .photo{
@@ -250,30 +204,29 @@ body{
 .sideselect{
     padding: 20px;
     align-content: center;
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'aboretoregular', chicleregular;
     text-align: center;
 }
-/*.sideselect label{
-  margin-left: 35px;
-}*/
+.selectpad{
+    padding: 5px;
+    width: 100%;
+}
 .sideselect2{
-    padding: 10px;
-    margin-left: 15px;
+    margin-left: 20px;
 }
 .sideselect2 select{
    padding: 10px;
-   /*margin-left: 15px;*/
-   margin-top: 5px;
+   margin-top: 10px;
    font-size: 20px;
-   width: 340px;
+   width: 74%;
    border: 1px dashed ;
    border-radius: 5px;
 }
 
 .sideselect3 select{
    padding: 10px;
-   margin-left: 15px;
+   margin-left: 25px;
    margin-top: 10px;
    font-size: 20px;
    width: 70%;
@@ -283,7 +236,7 @@ body{
 .sideselect3 label{
     margin-left: 15px;
     padding: 10px;
-    /*font-size: 20px;*/
+    margin-top: 10px;
 }
 
 .sideselect3 input{
@@ -301,7 +254,8 @@ body{
 }
 button{
     margin-left: 38%;
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
 .submit{
    padding: 12px;
@@ -330,7 +284,6 @@ button:hover{
     border-radius: 25px;
     padding: 15px 15px 15px 15px;
     background-color:rgb(244,178,178); 
-    /*padding-bottom: 20px;*/
     text-decoration-line: none;
     color: white;
     font-weight: bolder;
@@ -338,77 +291,49 @@ button:hover{
 }
 
 footer{
-    background-color: rgb(7,25,37);
-    /*justify-content: space-around;*/
-    position: relative;
-}
-.footerimg{
+    background-color: rgb(13,0,10);
     background-image: url(../images/mamaify-logo1.jpeg);
-    background-size: 100px 100px;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 350px;
-    width: 120px;
-    background-color: rgb(13,0,10);
-    margin-top: 20px;
+    color: white;
+    background-size: 200px 200px;
+    width: 100%;
+}
+.footerimg{
+    padding: 10px;
+    background-color: black;
+    opacity: 0.8;
+}
+.para2{
+   display: inline;
+   color: white;
+   margin: 5px;
+   padding: 7px;
+}
+.footlist{
+    font-family: 'ubunturegular';
+    padding: 0px;
 }
 .footlist li {
     list-style-type: none;
     line-height: 25px;
-}
-
-.footlist ul{
-    position: absolute;
-    margin-left: 70px;
-    top: 200px;
 }
 .footlist a{
     text-decoration: none;
     padding: 10px;
     color: white;
 }
-.para2{
-   display: inline-block;
-   margin: 20px 0px 0px 0px;
-   color: white;
+.below{
+    margin-bottom: 10px;
+    font-size: 12px;
 }
-
-.forLocation{
-    font-size: 15px;
-    color: white;
-    margin-left: 120px;
-    position: absolute;
-    /*bottom: 360px;*/
-    top: 110px;
-    /*padding: 5px;*/
+.move{
+    margin-top: 35px;
+    font-size: 28px;
 }
-.forPhone{
-    font-size: 15px;
-    color: white;
-    position: absolute;
-    margin-left: 120px;
-    top: 140px;
-}
-.forEmail{
-    font-size: 15px;
-    color: white;
-    position: absolute;
-    top: 170px;
-    margin-left: 120px;
-}
-.web {
-    font-size: 30px;
-    /*align-self: flex-end;*/
-    padding: 10px;
-    color: white;
-    position: absolute;
-    margin-left: 125px;
-    top: 315px;
-}
-
 .copy {
-    background-color: black;
-    color: white;
+    background-color: rgb(7,25,37);
+    color: black;
     text-align: center;
     padding: 5px;
 }
@@ -429,4 +354,8 @@ h3{
     75% {transform: scale(1.2,1.2);}
     100% {transform: scale(1,1);}
 }
+ h3, h2{
+    color: rgb(45,11,1);
+}
+
 }

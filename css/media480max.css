@@ -271,7 +271,7 @@ nav ul{
     color: white;
     padding: 5px;
     position: absolute;
-    right: 40px;
+    right: 50px;
     top: 35px;
 }
 
@@ -285,13 +285,10 @@ nav ul{
     float: right;
     position: relative;
     bottom: 47px;
-    right: 20px;
+    right: 30px;
 }
 #secsec{
-    /*height: 600px;*/
     width: 100%;
-    /*padding: 10px;*/
-    /*font-size: 10px;*/
 }
 .backphoto{
     background-image: url(../images/foodf.jpg);
@@ -444,14 +441,17 @@ footer{
     margin-top: 60px;
 }
 .copy {
-    background-color: white;
+    background-color: rgb(7,25,37);
     color: black;
     text-align: center;
     /*display: inline-block;*/
     padding: 3px;
 }
-
-
-
+ h3, h2{
+    color: rgb(45,11,1);
+}
+h3{
+    font-family: 'pacificoregular';
+}
 
 }
